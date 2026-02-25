@@ -80,9 +80,6 @@ if game.PlaceId == 2753915549 or game.PlaceId == 79091703265657 or game.PlaceId 
                print("Theme set to:", Value)
            end
         })
-
-        InterfaceManager:BuildInterfaceSection(Tabs.Settings)
-        SaveManager:BuildConfigSection(Tabs.Settings)
     end
 
     Window:SelectTab(1) --Default tab
