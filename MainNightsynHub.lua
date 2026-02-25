@@ -100,7 +100,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 79091703265657 or game.PlaceId 
     SaveManager:IgnoreThemeSettings()
 
     -- Use auto-loading
-    SaveManager:SetFolder("MightsynScriptHub")
+    SaveManager:SetFolder("SaveConfig")
     SaveManager:BuildConfigSection(Tabs.Settings)
 else
     game.Players.LocalPlayer:Kick("This script is only for Blox Fruits")
