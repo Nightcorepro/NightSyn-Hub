@@ -92,6 +92,8 @@ if game.PlaceId == 2753915549 or game.PlaceId == 79091703265657 or game.PlaceId 
         Icon = "check"
     })
 
+    ---[Save Configurations]---
+
     -- Handle SaveManager
     SaveManager:SetLibrary(Fluent)
     InterfaceManager:SetLibrary(Fluent)
@@ -100,7 +102,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 79091703265657 or game.PlaceId 
     SaveManager:IgnoreThemeSettings()
 
     -- Use auto-loading
-    SaveManager:SetFolder("SaveConfig")
+    SaveManager:SetFolder("NightConfigData")
     SaveManager:BuildConfigSection(Tabs.Settings)
 else
     game.Players.LocalPlayer:Kick("This script is only for Blox Fruits")
